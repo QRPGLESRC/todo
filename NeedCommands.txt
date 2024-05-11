@@ -15,3 +15,7 @@ add to App.js:
 add to babel.config.js:
 
 plugins: ['expo-router/babel']
+
+
+
+test
