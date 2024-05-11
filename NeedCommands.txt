@@ -1,0 +1,17 @@
+npx create-expo-app
+
+npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
+
+change in package.json:
+
+"main": "expo/AppEntry.js" to "main": "expo-router/entry"
+
+
+add to App.js:
+
+"scheme": "your-app-scheme"
+
+
+add to babel.config.js:
+
+plugins: ['expo-router/babel']
